@@ -1,0 +1,10 @@
+[package]
+name = "todo_cli"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.5.58", features = ["derive"] }
+owo-colors = "4.2.3"
+serde = { version = "1.0.228", features = ["derive"] }
+toml = "1.0.1"
